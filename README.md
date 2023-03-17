@@ -1,14 +1,16 @@
-This guide is a collection of techniques for improving the security and privacy of a modern Apple Macintosh computer ("MacBook") running a recent version of macOS (formerly known as "OS X").
+On this guide you will find some usuful methods, techniques & misc for drastically improve the way your computer interact with the external world and so, the security and privacy of a modern Apple Macintosh computer ("MacBook[Pro, Air], iMac") that runs a relatively recent version of macOS (formerly known as "OS X").
 
-This guide is targeted to power users who wish to adopt enterprise-standard security, but is also suitable for novice users with an interest in improving their privacy and security on a Mac.
+There are many good versions of macOS, but is best practices to have the latest version of your preferred macOS version. For example, if you prefer macOS Sierra, you should have the latest version of macOS Sierra. If you prefer macOS Catalina, you should have the latest version of macOS Catalina. If you prefer macOS Big Sur... you get the idea.
 
-A system is only as secure as its administrator is capable of making it. There is no one single technology, software, nor technique to guarantee perfect computer security; a modern operating system and computer is very complex, and requires numerous incremental changes to meaningfully improve one's security and privacy posture.
+This guide is targeted to power users who wish to understand the underlying concepts and techniques, and who are comfortable with the command line. It is not intended to be a complete reference, but rather a guide to help you get started with security and privacy on macOS.
 
-This guide is provided on an 'as is' basis without any warranties of any kind. Only **you** are responsible if you break anything or get in any sort of trouble by following this guide.
+A system is only as secure as its weakest link. It is important to understand the concepts and techniques described in this guide, and to apply them to your own situation. 
 
-To suggest an improvement, please send a pull request or [open an issue](https://github.com/drduh/macOS-Security-and-Privacy-Guide/issues).
+Any security or privacy recommendations made in this guide are not a substitute for your own research and understanding of the risks and tradeoffs involved in implementing them.
 
-This guide is also available in [简体中文](https://github.com/drduh/macOS-Security-and-Privacy-Guide/blob/master/README-cn.md).
+If you get any trouble or you have any question, please open an issue or try to fix it by yourself and send a pull request.
+
+Any improvement, please send a pull request or [open an issue](https://github.com/kaiorferraz/mac-security/issues).
 
 - [Basics](#basics)
 - [Preparing and installing macOS](#preparing-and-installing-macos)
@@ -76,10 +78,10 @@ This guide is also available in [简体中文](https://github.com/drduh/macOS-Se
 
 ## Basics
 
-Standard security best practices apply:
+Standard security best practices involve the following steps:
 
-* Create a [threat model](https://www.owasp.org/index.php/Application_Threat_Modeling)
-	* What are you trying to protect and from whom? Is your adversary a [three letter agency](https://theintercept.com/document/2015/03/10/strawhorse-attacking-macos-ios-software-development-kit/) (if so, you may want to consider using [OpenBSD](https://www.openbsd.org/) instead); a nosy eavesdropper on the network; or a determined [apt](https://en.wikipedia.org/wiki/Advanced_persistent_threat) orchestrating a campaign against you?
+* Create a [threat model](https://en.wikipedia.org/wiki/Threat_model) to understand your adversary and the threats they pose. This will help you to prioritize your security endeavor .
+	* What are you trying to protect and from whom? Is your adversary a [three letter agency](https://theintercept.com/document/2015/03/10/strawhorse-attacking-macos-ios-software-development-kit/) (if so, you may want to consider using [OpenBSD](https://www.openbsd.org/) instead); a nosy eavesdropper on the network; or a determined [apt](https://en.wikipedia.org/wiki/Advanced_persistent_threat) orchestrating a campaign against you? Who knows what they are capable of, and what they may be willing to do to get what they want from you. Just because you are not a high profile target, doesn't mean you are not a target at all.
 	* [Recognize threats](https://www.usenix.org/system/files/1401_08-12_mickens.pdf) and how to reduce attack surface against them.
 
 * Keep the system up to date

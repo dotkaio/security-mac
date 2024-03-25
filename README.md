@@ -1,13 +1,15 @@
-On this guide you will find some usuful methods, techniques & misc for drastically improve the way your computer interact with the external world and so, the security and privacy of a modern Apple Macintosh computer ("MacBook[Pro, Air], iMac") that runs a relatively recent version of macOS (formerly known as "OS X").
+```
+In this comprehensive guide, you'll discover advanced methods, techniques, and miscellaneous tips to significantly enhance the functionality, security, and privacy of your modern Apple Macintosh computer, including MacBook Pro, MacBook Air, and iMac, running the latest version of macOS.
 
-There are many good versions of macOS, but is best practices to have the latest version of your preferred macOS version. For example, if you prefer macOS Sierra, you should have the latest version of macOS Sierra. If you prefer macOS Catalina, you should have the latest version of macOS Catalina. If you prefer macOS Big Sur... you get the idea.
+Staying updated with the latest version of macOS is crucial for optimal performance and security. Whether you prefer macOS Sierra, Catalina, or Big Sur, ensuring you have the most recent updates is essential.
 
-This guide is targeted to power users who wish to understand the underlying concepts and techniques, and who are comfortable with the command line. It is not intended to be a complete reference, but rather a guide to help you get started with security and privacy on macOS.
+Designed for power users comfortable with the command line interface, this guide delves into the core concepts and techniques necessary to fortify your macOS system's security and privacy. While not exhaustive, it provides a solid foundation for implementing effective security measures.
 
-A system is only as secure as its weakest link. It is important to understand the concepts and techniques described in this guide, and to apply them to your own situation. 
+Remember, a system's security is only as strong as its weakest link. By comprehending and applying the strategies outlined in this guide, you can bolster the protection of your macOS environment.
 
-Any security or privacy recommendations made in this guide are not a substitute for your own research and understanding of the risks and tradeoffs involved in implementing them.
+It's important to note that the recommendations provided here serve as guidelines and are not a substitute for conducting your own research and understanding the associated risks and trade-offs involved in their implementation.
 
+- Apple's macOS Security Architecture: 
 If you get any trouble or you have any question, please open an issue or try to fix it by yourself and send a pull request.
 
 Any improvement, please send a pull request or [open an issue](https://github.com/kaiorferraz/mac-security/issues).
